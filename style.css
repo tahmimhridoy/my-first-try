@@ -3,9 +3,14 @@ body{
     margin: 0;
 }
 .header-section{
-    display: flex;
+    /* display: flex; */
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
 }
 .set-width{
     width: 50%;
@@ -30,4 +35,37 @@ span{
 }
 .keya-pagli:hover{
     background-image: linear-gradient(red, yellow);
+}
+.dream-big{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.full{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 5px solid black;
+}
+.Experience-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.full-stack{
+    font-size: 40px;
+}
+.cng-color{
+    color: orange;
+}
+#full-stack-development{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
